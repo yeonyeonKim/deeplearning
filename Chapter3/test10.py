@@ -3,7 +3,7 @@ import sys, os
 sys.path.append(os.pardir)
 import numpy as np
 import pickle
-from mnist import load_mnist
+from Dataset.mnist import load_mnist
 from common.function import softmax,sigmoid
 
 def get_data():
