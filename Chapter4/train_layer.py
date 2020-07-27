@@ -1,6 +1,6 @@
 #미니배치
 import numpy as np
-from mnist import load_mnist
+from Dataset.mnist import load_mnist
 from Chapter4.layer_net import TwoLayerNet
 import matplotlib.pylab as plt
 
